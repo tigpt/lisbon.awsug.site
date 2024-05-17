@@ -1,0 +1,3 @@
+[submodule "themes/awsug"]
+	path = themes/awsug
+	url = https://github.com/kkeles/awsug-hugo.git
