@@ -1,4 +1,4 @@
 [submodule "themes/awsug"]
 	path = themes/awsug
-	url = https://github.com/kkeles/awsug-hugo.git
+	url = https://github.com/tigpt/awsug-hugo-lisbon.git
 	branch = v1.3.0
