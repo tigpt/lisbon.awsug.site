@@ -34,8 +34,8 @@ resource "aws_amplify_branch" "main-branch" {
   stage             = "PRODUCTION"
 }
 
-#associate pagai.me domain with the amplify app.
-resource "aws_amplify_domain_association" "lisbon_awsug" {
+#associate lisbon.awsug.site domain with the amplify app.
+resource "aws_amplify_domain_association" "city_awsug" {
   app_id                = aws_amplify_app.lisbon.id
   domain_name           = "awsug.site"
   wait_for_verification = false
